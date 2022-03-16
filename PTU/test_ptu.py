@@ -11,7 +11,7 @@ serial_ptu = serial.Serial()
 
 # Configuration of serial communication parameters
 serial_ptu.port = '/dev/ttyUSB0'
-serial_ptu.baudrate = 9600
+serial_ptu.baudrate = 38400
 serial_ptu.bytesize = 8
 serial_ptu.stopbits = 1
 serial_ptu.parity = serial.PARITY_NONE
